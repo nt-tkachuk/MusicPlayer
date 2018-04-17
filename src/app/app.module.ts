@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { TCompComponent } from './t-comp/t-comp.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TCompComponent
   ],
   imports: [
     BrowserModule
